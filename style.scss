@@ -1,18 +1,17 @@
+$primary: #00acee;
+
 body {
   min-height: 100vh;
-  display: -ms-grid;
   display: grid;
   place-items: center;
 }
 
 .main_div {
-  display: -ms-grid;
   display: grid;
   place-items: center;
   font-size: 2em;
   width: 10em;
   height: 10em;
-  background-color: #00acee;
+  background-color: $primary;
   border: 2px solid crimson;
 }
-/*# sourceMappingURL=style.css.map */
